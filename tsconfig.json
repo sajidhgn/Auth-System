@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "types": ["node", "dotenv"],
-    "target": "es2017",
-    "module": "commonjs",
+    "target": "ESNext",
+    "module": "ESNext",
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
