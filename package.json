@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon -L cross-env NODE_ENV=development ts-node src/server.ts",
-    "start": "node dist/server.js",
+    "start": "node src/server.ts",
     "build": "tsc"
   },
   "devDependencies": {
