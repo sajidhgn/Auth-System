@@ -1,5 +1,5 @@
 const express = require('express');
-import userRoute from "./user.routes";
+import userRoute from "./user";
 const router = express.Router();
 
 const defaultRoutes = [

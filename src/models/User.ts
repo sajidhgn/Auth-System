@@ -1,5 +1,5 @@
 import mongoose, {Schema, Document} from 'mongoose';
-import {bcryptPassword} from "../middlewares/auth.middleware";
+import {bcryptPassword} from "../middlewares/verifyJwt";
 
 
 const UserSchema: Schema = new Schema({

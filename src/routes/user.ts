@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 import {userController} from "../controllers";
-import {checkUserAuth} from "../middlewares/auth.middleware";
+import {checkUserAuth} from "../middlewares/verifyJwt";
 import validateUser from "../validations/validateUser";
 
 const userRoute =router

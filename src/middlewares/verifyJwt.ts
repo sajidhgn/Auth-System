@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import config from "../config/config";
-import {UserModel} from "../models/user.model";
+import {UserModel} from "../models/User";
 export const bcryptPassword = async (password:any) => {
     const salt = await bcrypt.genSaltSync(10);
     return bcrypt.hashSync(password, salt);

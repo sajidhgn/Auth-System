@@ -2,8 +2,8 @@ import passport from "passport";
 import {Strategy as LocalStrategy} from 'passport-local';
 import {Strategy as JwtStrategy, ExtractJwt} from 'passport-jwt';
 import {compareSync} from "bcrypt";
-import {UserModel} from "../models/user.model";
-import {generateToken} from "../middlewares/auth.middleware";
+import {UserModel} from "../models/User";
+import {generateToken} from "../middlewares/verifyJwt";
 import config from "../config/config"
 
 passport.use(new LocalStrategy(

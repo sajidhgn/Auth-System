@@ -1,10 +1,10 @@
 import path from 'path';
 import fs from 'fs';
-import {UserModel} from "../models/user.model";
-import {generateToken} from "../middlewares/auth.middleware";
+import {UserModel} from "../models/User";
+import {generateToken} from "../middlewares/verifyJwt";
 import passport from '../config/passport';
 import { generateRandomPassword } from '../utils/helpers';
-import { bcryptPassword } from '../middlewares/auth.middleware';
+import { bcryptPassword } from '../middlewares/verifyJwt';
 import { createTransporter } from '../utils/helpers';
 import { VerificationCodeModel } from '../models/verificationToken.model';
 
