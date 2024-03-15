@@ -1,11 +1,11 @@
 {
   "name": "infinite-crypto-service",
   "version": "1.0.0",
-  "main": "server.ts",
+  "main": "server.mjs",
   "type":"module",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon -L cross-env NODE_ENV=development ts-node src/server.ts",
+    "start": "nodemon -L cross-env NODE_ENV=development ts-node src/server.mjs",
     "build": "tsc"
   },
   "devDependencies": {
