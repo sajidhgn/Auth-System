@@ -1,8 +1,9 @@
 {
   "name": "infinite-crypto-service",
   "version": "1.0.0",
-  "main": "server.mjs",
-  "type": "module",
+  "engines": {
+		"node": "18.19.0"
+	},
   "license": "MIT",
   "scripts": {
     "dev": "nodemon -L cross-env NODE_ENV=development ts-node src/server.ts",

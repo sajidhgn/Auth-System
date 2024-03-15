@@ -17,11 +17,9 @@
     "noImplicitThis": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": true
+    "strictPropertyInitialization": true,
+    "baseUrl": "."
   },
-  "typeRoots": [
-    "./utils/global.d.ts", "./node_modules/@types"
-  ],
   "include": [
     "src/**/*.ts", "src/config/config.ts"
   ],
